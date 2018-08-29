@@ -250,54 +250,33 @@ h6, .h6 {
         <div class="col-sm-8 blog-main">
 
           <div class="blog-post">
-            <div class='row text-center'>
-    <h1>Miguel Ceron</h1>
-    <p></p>
-
+            <div class='row'>
+	<a class='btn btn-link' href='/'><strong><u>Regresar</u></strong></a>
 </div>
+<br>
 <div class='row'>
-    <ul>
-    
-        <li>
-            <h3>
-                <a href="/2018/08/28/un-icono/">
-                    Un icono
-                </a>
-            </h3>
-            <div class='text-muted'>
-                2018-08-28 
-            </div>
-            
-            
-        </li>
-    
-        <li>
-            <h3>
-                <a href="/2018/08/28/hello-world/">
-                    Buenas! y Hello World
-                </a>
-            </h3>
-            <div class='text-muted'>
-                2018-08-28 
-            </div>
-            
-            
-        </li>
-    
-        <li>
-            <h3>
-                <a href="/2018/08/28/Usando-Hexo-en-Ubuntu/">
-                    Usando Hexo en Ubuntu
-                </a>
-            </h3>
-            <div class='text-muted'>
-                2018-08-28 
-            </div>
-            
-            
-        </li>
-    
-    </ul>
+	<h1>Usando Hexo en Ubuntu</h1>
+	<div class='text-muted'>
+        2018-08-28 
+    </div>
+	<p>Hace unos meses me vi obligado a usar un computador portatil de pocos recursos, asi que le instale un SO linux, xUbuntu siendo preciso, y es el que he usado hasta el momento, asi que he creado este post para enseñarles a usar Hexo en este SO, asi que vamos a instalar las dependencias para poder usar Hexo en nuestra maquina con este sistema operativo.</p>
+
+<p></p><h3>1. Git</h3><p></p>
+<p>Git viene de forma predeterminada en Ubuntu, pero se puede comprobar con el siguiente comando en una terminal.</p>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br></pre></td></tr></table></figure>
+<p>Si git no se encuentra instalado, con el siguiente comando se puede hacer</p>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ apt install git-core</span><br></pre></td></tr></table></figure>
+<p>Ahora hay que ingresar el usuario y el email de git</p>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"tu_nombre"</span></span><br><span class="line">$ git config --global user.email <span class="string">"tu_email"</span></span><br></pre></td></tr></table></figure>
+<p></p><h3>2. Nodejs y NPM</h3><p></p>
+<p>hay qe instalar estas dos dependencias de la siguiente forma.</p>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt install nodejs</span><br><span class="line"></span><br><span class="line">$ sudo apt install npm</span><br></pre></td></tr></table></figure>
+<p> . . . EN CONSTRUCCIÓN . . .</p>
+
 </div>
           </div><!-- /.blog-post -->
 
